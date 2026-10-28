@@ -1,0 +1,11 @@
+{
+  "errors": [],
+  "findings": [
+    "Single click on a variant inside a component set on canvas selected nothing; used the variant frame label instead"
+  ],
+  "downloads": [
+    "Product Page.png",
+    "Product Page@2x.jpg",
+    "Aero Glide — Product Page.myflow"
+  ]
+}

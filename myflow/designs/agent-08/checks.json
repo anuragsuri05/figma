@@ -1,0 +1,162 @@
+{
+  "checks": [
+    {
+      "name": "All shapes/text nested inside their frames",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Button labels nested in button frames",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Next 1 → Onboarding 2, Smart animate",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Next 2 → Onboarding 3, Smart animate",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Skip → Onboarding 3, Slide in",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Get started → Open overlay Welcome (bg + close outside)",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "After delay 1500ms on Onboarding 1",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Back interactions on screens 2 and 3",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Named flow starting point \"Onboarding\"",
+      "ok": true,
+      "note": "flowStarts[0].name=Onboarding"
+    },
+    {
+      "name": "Prototype panel: device iPhone 16 + background",
+      "ok": true,
+      "note": "{\"d\":\"IPHONE_16\",\"b\":\"#1B1A2E\",\"flows\":[{\"id\":\"flmv3vl71f0u0t351\",\"nodeId\":\"nmv3vizd9mgc5a8\",\"name\":\"Onboarding\"}]}"
+    },
+    {
+      "name": "PNG export of all 4 frames via Export button",
+      "ok": true,
+      "note": "Onboarding 1@2x.png, Onboarding 2@2x.png, Onboarding 3@2x.png, Welcome@2x.png"
+    },
+    {
+      "name": "Multi-select export of 4 frames in one click",
+      "ok": true,
+      "note": "selected 4, got 4 downloads: Onboarding 1@2x.png, Onboarding 2@2x.png, Onboarding 3@2x.png, Welcome@2x.png"
+    },
+    {
+      "name": "Save local copy (.myflow) contains reactions + flow",
+      "ok": true,
+      "note": "reactions=9"
+    },
+    {
+      "name": "Present opens at flow start Onboarding 1",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Click Next on screen 1 → Onboarding 2 (Smart animate ran)",
+      "ok": true,
+      "note": "animations=14"
+    },
+    {
+      "name": "Back button on screen 2 → Onboarding 1",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "After delay (1500ms) auto-advances screen 1 → 2",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Click Next on screen 2 → Onboarding 3",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Get started opens Welcome overlay",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Overlay closes on outside click",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "\"Let's go\" (Close overlay) closes the modal",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Back on screen 3 → Onboarding 2",
+      "ok": true,
+      "note": "Onboarding 2"
+    },
+    {
+      "name": "Skip on screen 2 → Onboarding 3 with Slide in",
+      "ok": true,
+      "note": "{\"offset\":null,\"easing\":\"linear\",\"composite\":\"auto\",\"opacity\":\"0.6\",\"transform\":\"translate(378.239px, 0px)\",\"computedOffset\":0}"
+    },
+    {
+      "name": "Restart (R) returns to Onboarding 1",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Skip on screen 1 → Onboarding 3",
+      "ok": true,
+      "note": ""
+    },
+    {
+      "name": "Flow selector lists \"Onboarding\" and jumps to its start",
+      "ok": true,
+      "note": "Flows,Onboarding"
+    },
+    {
+      "name": "Close presentation returns to editor",
+      "ok": true,
+      "note": ""
+    }
+  ],
+  "errors": [],
+  "ids": {
+    "next": [
+      "nmv3vjp43istz41j",
+      "nmv3vkcvmcfj422u"
+    ],
+    "skip": [
+      "nmv3vjrcnmn7d41n",
+      "nmv3vkejsl1ev72y"
+    ],
+    "back": [
+      "nmv3vkg2wlxisd32",
+      "nmv3vkw0y7ccdz45"
+    ],
+    "get": "nmv3vku7ob4aks41",
+    "letsgo": "nmv3vl1ydek9zo4h"
+  },
+  "frameIds": [
+    "nmv3vizd9mgc5a8",
+    "nmv3vj0kbl5li4a",
+    "nmv3vj1ma47kf8c"
+  ],
+  "modalId": "nmv3vj2gufy91ye"
+}

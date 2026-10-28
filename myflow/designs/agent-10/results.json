@@ -1,0 +1,233 @@
+{
+  "results": [
+    {
+      "name": "Frame preset Paper → A4 = 595×842",
+      "ok": true,
+      "info": "595×842"
+    },
+    {
+      "name": "Diamond gradient on rotated square",
+      "ok": true,
+      "info": "GRADIENT_DIAMOND rot 45"
+    },
+    {
+      "name": "Angular gradient on ellipse (3 stops)",
+      "ok": true,
+      "info": "GRADIENT_ANGULAR [\"#FFC94A@0\",\"#FFC94A@1\",\"#6B4EFF@0.5\"]"
+    },
+    {
+      "name": "Angular gradient on triangle polygon",
+      "ok": true,
+      "info": "POLYGON pts 3"
+    },
+    {
+      "name": "Dashed stroke border (Dash style)",
+      "ok": true,
+      "info": "[6,5]"
+    },
+    {
+      "name": "Display title: Playfair Display italic 150 / LH 140 / LS -3%",
+      "ok": true,
+      "info": "{\"f\":\"Playfair Display\",\"s\":150,\"i\":true,\"lh\":140,\"ls\":-3}"
+    },
+    {
+      "name": "Display title 2: Inter 900, Case → UPPER",
+      "ok": true,
+      "info": "{\"f\":\"Inter\",\"w\":900,\"c\":\"UPPER\",\"chars\":\"matters\"}"
+    },
+    {
+      "name": "Arrow divider: start CIRCLE / end ARROW caps",
+      "ok": true,
+      "info": "LINE CIRCLE/ARROW w=511"
+    },
+    {
+      "name": "Speakers list = BULLET list",
+      "ok": true,
+      "info": "BULLET"
+    },
+    {
+      "name": "Schedule = NUMBER list",
+      "ok": true,
+      "info": "NUMBER"
+    },
+    {
+      "name": "Lorem ipsum plugin fills placeholder",
+      "ok": true,
+      "info": "Lorem ipsum dolor sit amet, consectetur "
+    },
+    {
+      "name": "Find & Replace fixed \"Typograpy\" → \"Typography\"",
+      "ok": true,
+      "info": "count=\"1 result\""
+    },
+    {
+      "name": "Batch rename ⌘R \"Speaker $n\" on 5 avatar layers",
+      "ok": true,
+      "info": "Speaker 1, Speaker 2, Speaker 3, Speaker 4, Speaker 5"
+    },
+    {
+      "name": "Version history: save named → change → restore",
+      "ok": true,
+      "info": "saved=true before=24 afterDelete=23 afterRestore=24"
+    },
+    {
+      "name": "PNG export via Export button",
+      "ok": true,
+      "info": "Poster A4@2x.png"
+    },
+    {
+      "name": "PDF export starts with %PDF",
+      "ok": true,
+      "info": "Poster A4.pdf 235495B"
+    },
+    {
+      "name": "File → Export frames to PDF starts with %PDF",
+      "ok": true,
+      "info": "Type Matters — A4 Poster.pdf"
+    },
+    {
+      "name": "Save local copy (.myflow JSON)",
+      "ok": true,
+      "info": "Type Matters — A4 Poster.myflow nodes=24"
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "total": 24,
+    "frameChildren": 23,
+    "types": {
+      "FRAME": 1,
+      "RECTANGLE": 2,
+      "ELLIPSE": 6,
+      "POLYGON": 1,
+      "TEXT": 12,
+      "LINE": 2
+    },
+    "fonts": [
+      "Inter",
+      "Playfair Display"
+    ],
+    "texts": [
+      {
+        "name": "the international conference on type & f",
+        "chars": "the international conference on type & form  ·  vo",
+        "case": "UPPER",
+        "list": "NONE",
+        "ls": 22,
+        "lh": "AUTO",
+        "w": 348,
+        "h": 10
+      },
+      {
+        "name": "matters",
+        "chars": "matters",
+        "case": "UPPER",
+        "list": "NONE",
+        "ls": -4,
+        "lh": 84,
+        "w": 389,
+        "h": 84
+      },
+      {
+        "name": "Type,",
+        "chars": "Type,",
+        "case": "ORIGINAL",
+        "list": "NONE",
+        "ls": -3,
+        "lh": 140,
+        "w": 349,
+        "h": 140
+      },
+      {
+        "name": "Two days of talks, workshops and critiqu",
+        "chars": "Two days of talks, workshops and critique on\ntypog",
+        "case": "ORIGINAL",
+        "list": "NONE",
+        "ls": 0,
+        "lh": 21,
+        "w": 380,
+        "h": 42
+      },
+      {
+        "name": "speakers",
+        "chars": "speakers",
+        "case": "UPPER",
+        "list": "NONE",
+        "ls": 24,
+        "lh": "AUTO",
+        "w": 65,
+        "h": 11
+      },
+      {
+        "name": "schedule — day one",
+        "chars": "schedule — day one",
+        "case": "UPPER",
+        "list": "NONE",
+        "ls": 24,
+        "lh": "AUTO",
+        "w": 141,
+        "h": 11
+      },
+      {
+        "name": "Mara Okonkwo, Studio North",
+        "chars": "Mara Okonkwo, Studio North\nJulian Reyes, Kern & Co",
+        "case": "ORIGINAL",
+        "list": "BULLET",
+        "ls": 0,
+        "lh": 20,
+        "w": 240.00003212376646,
+        "h": 100
+      },
+      {
+        "name": "09:00  Opening keynote",
+        "chars": "09:00  Opening keynote\n10:30  Variable fonts in pr",
+        "case": "ORIGINAL",
+        "list": "NUMBER",
+        "ls": 0,
+        "lh": 20,
+        "w": 245.00000000000006,
+        "h": 100
+      },
+      {
+        "name": "Lorem ipsum dolor sit amet, consectetur ",
+        "chars": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+        "case": "ORIGINAL",
+        "list": "NONE",
+        "ls": 0,
+        "lh": 12,
+        "w": 250.00003212376646,
+        "h": 48
+      },
+      {
+        "name": "14 – 15 March 2026",
+        "chars": "14 – 15 March 2026",
+        "case": "ORIGINAL",
+        "list": "NONE",
+        "ls": 0,
+        "lh": 30,
+        "w": 222,
+        "h": 30
+      },
+      {
+        "name": "lx factory, lisbon  ·  designconf.exampl",
+        "chars": "lx factory, lisbon  ·  designconf.example",
+        "case": "UPPER",
+        "list": "NONE",
+        "ls": 16,
+        "lh": "AUTO",
+        "w": 239,
+        "h": 10
+      },
+      {
+        "name": "Vol.",
+        "chars": "Vol.\n07",
+        "case": "ORIGINAL",
+        "list": "NONE",
+        "ls": 0,
+        "lh": 22,
+        "w": 80,
+        "h": 44
+      }
+    ]
+  }
+}

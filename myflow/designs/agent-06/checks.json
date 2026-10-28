@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "iPhone frame preset 393x852": {
+      "ok": true,
+      "info": ""
+    },
+    "pen open path (chevron)": {
+      "ok": true,
+      "info": "{\"closed\":false,\"n\":3}"
+    },
+    "chevron reparented into frame": {
+      "ok": true,
+      "info": ""
+    },
+    "album art nested frame": {
+      "ok": true,
+      "info": "parent=nmv3vizd9bif3l7"
+    },
+    "pen closed path with curve handle (mountains)": {
+      "ok": true,
+      "info": "{\"closed\":true,\"curves\":1}"
+    },
+    "pen vector reparented into Album Art by dragging": {
+      "ok": true,
+      "info": "parent=nmv3vjajk20bmj2h"
+    },
+    "pen heart: closed + 2 curve handles": {
+      "ok": true,
+      "info": ""
+    },
+    "heart inside frame": {
+      "ok": true,
+      "info": ""
+    },
+    "vector edit mode (Enter, drag point)": {
+      "ok": true,
+      "info": "edit=true moved=true"
+    },
+    "ellipse arc (sweep 38%, ratio 94%, start -90)": {
+      "ok": true,
+      "info": "{\"sweep\":136.8,\"inner\":0.94,\"start\":-90}"
+    },
+    "pen closed polygon (previous)": {
+      "ok": true,
+      "info": "n=8"
+    },
+    "pen closed polygon (next)": {
+      "ok": true,
+      "info": ""
+    },
+    "pen open path with curve (shuffle)": {
+      "ok": true,
+      "info": ""
+    },
+    "repeat + arrows reparented": {
+      "ok": true,
+      "info": ""
+    },
+    "frame tool wrapped pen triangle": {
+      "ok": true,
+      "info": "children=1"
+    },
+    "component State=Play": {
+      "ok": true,
+      "info": ""
+    },
+    "component State=Pause": {
+      "ok": true,
+      "info": ""
+    },
+    "component set combined": {
+      "ok": true,
+      "info": ""
+    },
+    "variants named State=Play/Pause": {
+      "ok": true,
+      "info": ""
+    },
+    "On click → Change to interactions on both variants": {
+      "ok": true,
+      "info": "[[\"ON_CLICK\",\"CHANGE_TO\"],[\"ON_CLICK\",\"CHANGE_TO\"]]"
+    },
+    "instance dropped into phone frame": {
+      "ok": true,
+      "info": "parent=nmv3vizd9bif3l7"
+    },
+    "PNG export download": {
+      "ok": true,
+      "info": "Now Playing@2x.png"
+    },
+    "Save local copy": {
+      "ok": true,
+      "info": "43 nodes, file Now Playing — Music Player.myflow"
+    },
+    "Present: click toggles Play→Pause→Play": {
+      "ok": false,
+      "info": "children -1→-1→-1; px0≠px1:true px0=px2:false"
+    }
+  },
+  "counts": {
+    "total": 43,
+    "c": {
+      "FRAME": 2,
+      "ELLIPSE": 8,
+      "TEXT": 7,
+      "RECTANGLE": 10,
+      "VECTOR": 12,
+      "COMPONENT": 2,
+      "COMPONENT_SET": 1,
+      "INSTANCE": 1
+    }
+  },
+  "errors": [],
+  "notes": [
+    "had to expand Play Button in layers to reach State=Play"
+  ]
+}

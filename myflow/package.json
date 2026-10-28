@@ -1,0 +1,133 @@
+{
+  "name": "myflow",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc -b",
+    "test:e2e": "playwright test",
+    "test": "playwright test",
+    "desktop": "vite build && electron .",
+    "dist:mac": "vite build && electron-builder --mac --x64 --arm64",
+    "dist:win": "vite build && electron-builder --win --x64",
+    "dist": "vite build && electron-builder --mac --x64 --arm64 && electron-builder --win --x64",
+    "test:desktop": "playwright test -c playwright.desktop.config.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "@anthropic-ai/sdk": "^0.133.0",
+    "@google/genai": "^2.28.0",
+    "idb-keyval": "^6.3.0",
+    "immer": "^11.1.21",
+    "openai": "^7.32.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zustand": "^5.0.15"
+  },
+  "productName": "My Flow",
+  "description": "My Flow — a Figma-style design, prototyping and handoff tool. No account needed.",
+  "author": {
+    "name": "My Flow"
+  },
+  "main": "electron/main.cjs",
+  "build": {
+    "appId": "app.myflow.desktop",
+    "productName": "My Flow",
+    "copyright": "My Flow",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "mac": {
+      "category": "public.app-category.graphics-design",
+      "icon": "build/icon.png",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ],
+      "identity": "-",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false,
+      "artifactName": "MyFlow-${version}-mac-${arch}.${ext}"
+    },
+    "dmg": {
+      "title": "My Flow ${version}",
+      "contents": [
+        {
+          "x": 140,
+          "y": 190
+        },
+        {
+          "x": 400,
+          "y": 190,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ],
+      "window": {
+        "width": 540,
+        "height": 380
+      }
+    },
+    "win": {
+      "icon": "build/icon.png",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "My Flow",
+      "artifactName": "MyFlow-Setup-${version}-win-x64.${ext}"
+    },
+    "portable": {
+      "artifactName": "MyFlow-${version}-win-x64-portable.${ext}"
+    },
+    "electronFuses": {
+      "runAsNode": false,
+      "enableNodeOptionsEnvironmentVariable": false,
+      "enableCookieEncryption": true,
+      "onlyLoadAppFromAsar": true,
+      "enableEmbeddedAsarIntegrityValidation": true,
+      "enableNodeCliInspectArguments": true
+    }
+  }
+}

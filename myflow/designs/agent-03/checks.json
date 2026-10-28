@@ -1,0 +1,67 @@
+{
+  "imageFills": [
+    "Product image",
+    "Thumbnail 1",
+    "Thumbnail 2",
+    "Thumbnail 3",
+    "Thumbnail 4"
+  ],
+  "stars": [
+    "Star 1 pts=5 r=0.45 fill=#F5A623",
+    "Star 2 pts=5 r=0.45 fill=#F5A623",
+    "Star 3 pts=5 r=0.45 fill=#F5A623",
+    "Star 4 pts=5 r=0.45 fill=#F5A623",
+    "Star 5 pts=5 r=0.45 fill=#F8CF86"
+  ],
+  "strike": "STRIKETHROUGH",
+  "set": [
+    {
+      "name": "Size option",
+      "variants": [
+        "State=Default",
+        "State=Selected"
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "main": "State=Default",
+      "label": "7"
+    },
+    {
+      "main": "State=Default",
+      "label": "8"
+    },
+    {
+      "main": "State=Default",
+      "label": "8.5"
+    },
+    {
+      "main": "State=Default",
+      "label": "9"
+    },
+    {
+      "main": "State=Default",
+      "label": "9.5"
+    },
+    {
+      "main": "State=Selected",
+      "label": "10"
+    },
+    {
+      "main": "State=Default",
+      "label": "11"
+    }
+  ],
+  "descWrap": {
+    "autoResize": "HEIGHT",
+    "w": 560,
+    "h": 96
+  },
+  "titleWrap": {
+    "autoResize": "HEIGHT",
+    "w": 560,
+    "h": 92
+  },
+  "layerCount": 75
+}

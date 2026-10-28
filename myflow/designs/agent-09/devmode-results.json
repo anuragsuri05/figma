@@ -1,0 +1,32 @@
+{
+  "cTexts": 2,
+  "comments": [
+    {
+      "resolved": true,
+      "replies": 2
+    }
+  ],
+  "status": {
+    "section": "READY",
+    "bg": "READY"
+  },
+  "widgetStatusControl": 0,
+  "annotations": [
+    "Glass card: fill #FFFFFF @18%, 1px #FFFFFF @30% inside stroke, background blur 40 (backdrop-filter: blur(20px)), radius 28.",
+    "5-Day Forecast is a horizontal auto layout (space-between); each day is a vertical stack, gap 9 — map to HStack / Row."
+  ],
+  "code": {
+    "CSS": "/* Widget / Large */\ndisplay: flex;\nflex-direction: column;\njustify-content: flex-start;\nalign-items: flex-start;\ngap: 16px;\npadding: 20px 20px 20px 20px;\nposition: absolute;\nleft: 658px;\ntop: 120px;\nwidth: 364px;\nheight: 382px;\nbackground: rgba(255, 255, 255, 0.18);\nborder: 1px solid rgba(255, 255, 255, 0.3);\nborder-radius: 28px;\nbox-shadow: 0px 16px 40px 0px rgba(0, 0, 0, 0.25);\nbackdrop-filter: blur(20px);\noverflow: hidden;",
+    "TAILWIND": "<div className=\"flex flex-col justify-start items-start gap-4 px-5 py-5 absolute left-[658px] top-[120px] w-[364px] h-[382px] bg-[#FFFFFF]/[0.18] rounded-[28px] border border-[#FFFFFF]/[0.3] shadow-[0px_16px_40px_0px_rgba(0,0,0,0.25)] backdrop-blur-[20px] overflow-hidden\"></div>",
+    "SWIFTUI": "VStack(alignment: .leading, spacing: 16) {\n  // children\n}\n.padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))\n.frame(width: 364, height: 382)\n.background(Color(red: 1, green: 1, blue: 1).opacity(0.18))\n  .cornerRadius(28)\n  .overlay(RoundedRectangle(cornerRadius: 28).inset(by: 0.5).stroke(Color(red: 1, green: 1, blue: 1).opacity(0.3), lineWidth: 1))\n  .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 28)) // background blur 20\n  .shadow(color: Color(red: 0, green: 0, blue: 0).opacity(0.25), radius: 20, x: 0, y: 16)",
+    "COMPOSE": "Column(\n  modifier = Modifier\n    .width(364.dp)\n    .height(382.dp)\n    .shadow(elevation = 20.dp, shape = RoundedCornerShape(size = 28.dp), spotColor = Color(0x40000000))\n    .background(color = Color(0x2EFFFFFF), shape = RoundedCornerShape(size = 28.dp))\n    .border(width = 1.dp, color = Color(0x4DFFFFFF), shape = RoundedCornerShape(size = 28.dp))\n    .blur(radius = 20.dp) // background blur: use a blurred backdrop / Haze\n    .padding(start = 20.dp, top = 20.dp, end = 20.dp, bottom = 20.dp)\n  ,verticalArrangement = Arrangement.spacedBy(16.dp),\n) {\n  // Child views\n}"
+  },
+  "rowCss": "/* 5-Day Forecast */\ndisplay: flex;\njustify-content: space-between;\nalign-items: flex-start;\nalign-self: stretch;\nheight: fit-content;",
+  "assets": [
+    "asset-Widget_-_Large_2x.png",
+    "asset-Widget_-_Large.svg",
+    "asset-Cloud.svg",
+    "asset-Sun_2x.png"
+  ],
+  "readyListSelection": []
+}

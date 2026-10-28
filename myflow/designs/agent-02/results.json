@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "check": "Rename file through left-panel file name",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "Desktop frame via Frame presets (1440×1024)",
+      "pass": true,
+      "note": "1440×1024"
+    },
+    {
+      "check": "Sidebar wraps logo + label + 6 nav items in vertical auto layout",
+      "pass": true,
+      "note": "mode=VERTICAL kids=8"
+    },
+    {
+      "check": "Shift+A on a frame with children turns it into auto layout",
+      "pass": true,
+      "note": "HORIZONTAL"
+    },
+    {
+      "check": "Top bar: horizontal auto layout, space-between, search + avatar",
+      "pass": true,
+      "note": "HORIZONTAL/SPACE_BETWEEN 1200×80"
+    },
+    {
+      "check": "Stat card: drop shadow effect + 12px radius",
+      "pass": true,
+      "note": "{\"id\":\"emv3vju2n7gi5idt\",\"type\":\"DROP_SHADOW\",\"visible\":true,\"color\":\"#0F172A\",\"opacity\":0.25,\"x\":0,\"y\":4,\"blur\":24,\"spread\":0}"
+    },
+    {
+      "check": "⌘D duplicates the stat card (#2)",
+      "pass": true,
+      "note": "Stat card"
+    },
+    {
+      "check": "⌘D duplicates the stat card (#3)",
+      "pass": true,
+      "note": "Stat card"
+    },
+    {
+      "check": "⌘D duplicates the stat card (#4)",
+      "pass": true,
+      "note": "Stat card"
+    },
+    {
+      "check": "Edited duplicated stat-card texts via double-click",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "Align top + distribute horizontally on 4 cards",
+      "pass": true,
+      "note": "ys=112,112,112,112 gaps=24,24,24"
+    },
+    {
+      "check": "KPI row: horizontal auto layout of 4 cards",
+      "pass": true,
+      "note": "HORIZONTAL w=1136"
+    },
+    {
+      "check": "Bar chart plugin (Main menu → Plugins) inserts a chart",
+      "pass": true,
+      "note": "Bar chart parent=null"
+    },
+    {
+      "check": "Drag plugin chart into the Revenue card (reparent on drop)",
+      "pass": true,
+      "note": "parent=nmv3vk4foc8hlcik card=nmv3vk4foc8hlcik"
+    },
+    {
+      "check": "Recolor chart bars via Selection colors",
+      "pass": true,
+      "note": "#6366F1"
+    },
+    {
+      "check": "Revenue card becomes vertical auto layout (title, subtitle, chart, months)",
+      "pass": true,
+      "note": "VERTICAL kids=4"
+    },
+    {
+      "check": "Orders card: vertical auto layout of header + table head + rows",
+      "pass": true,
+      "note": "VERTICAL kids=10"
+    },
+    {
+      "check": "Shift+A wrapper frames clip content by default (shadows of children get cut off)",
+      "pass": true,
+      "note": "clipContent=false"
+    },
+    {
+      "check": "Nested auto layout: Content(V) › Charts row(H) › Orders card(V) › Order row(H)",
+      "pass": true,
+      "note": ""
+    },
+    {
+      "check": "12-column layout guide on main frame",
+      "pass": true,
+      "note": "{\"p\":\"COLUMNS\",\"c\":12,\"gut\":24,\"m\":32}"
+    },
+    {
+      "check": "Everything lives inside the Dashboard frame",
+      "pass": true,
+      "note": "top-level=Dashboard"
+    },
+    {
+      "check": "Auto layout nesting depth ≥ 4",
+      "pass": true,
+      "note": "maxDepth=5, AL frames=33"
+    },
+    {
+      "check": "Zoom to fit (Shift+1) keeps the frame clear of the floating panels",
+      "pass": true,
+      "note": "frame spans screen x 337–1103, visible canvas 257–1183 (zoom 0.53)"
+    },
+    {
+      "check": "PNG export via Export button",
+      "pass": true,
+      "note": "167645 bytes, 1440×1024"
+    },
+    {
+      "check": "SVG export via Export button",
+      "pass": true,
+      "note": "392890 bytes"
+    },
+    {
+      "check": "Save local copy (.myflow)",
+      "pass": true,
+      "note": "Pulse — SaaS Analytics Dashboard.myflow nodes=120"
+    },
+    {
+      "check": "Dev Mode panel opens scrolled to the top (code header visible)",
+      "pass": true,
+      "note": "inherited scrollTop=0"
+    },
+    {
+      "check": "Dev Mode CSS for stat card (radius, shadow, flex)",
+      "pass": true,
+      "note": "/* Stat card 1 */ | display: flex; | flex-direction: column;"
+    }
+  ],
+  "errors": [],
+  "twistyClicks": 3,
+  "layers": 119,
+  "alFrames": 33,
+  "maxDepth": 5
+}

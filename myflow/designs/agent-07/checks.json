@@ -1,0 +1,173 @@
+{
+  "checks": [
+    {
+      "name": "File renamed through file-name field",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Frame preset Social media → Instagram post = 1080×1350",
+      "ok": true,
+      "detail": "1080×1350"
+    },
+    {
+      "name": "Generated PNG placed as image fill (⌘⇧K + drag)",
+      "ok": true,
+      "detail": "Image"
+    },
+    {
+      "name": "Use as mask (⌃⌘M) on circle + photo → masked group",
+      "ok": true,
+      "detail": "group \"Photo circle\", children: Photo circle[mask], Latte photo"
+    },
+    {
+      "name": "Star tool creates STAR node",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Rotation on badge group (prop-rotation −14°)",
+      "ok": true,
+      "detail": "rotation=-14"
+    },
+    {
+      "name": "Lock via layers panel (Deco disc)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Locked layer not selectable on canvas",
+      "ok": true,
+      "detail": "selected: none"
+    },
+    {
+      "name": "Overlay rectangle: blend Multiply + opacity 35%",
+      "ok": true,
+      "detail": "blend=MULTIPLY, opacity=0.35"
+    },
+    {
+      "name": "Layers panel drag reorder (overlay moved directly above photo, below text)",
+      "ok": true,
+      "detail": "before=[Deco disc | Accent disc | Photo (masked) | Logo | Logo tagline | Headline | Subcopy | Promo badge | Warm overlay] after=[Deco disc | Accent disc | Photo (masked) | Warm overlay | Logo | Logo tagline | Headline | Subcopy | Promo badge]"
+    },
+    {
+      "name": "Hide via layers panel eye (Draft headline)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Frame preset Social media → Instagram story = 1080×1920",
+      "ok": true,
+      "detail": "1080×1920"
+    },
+    {
+      "name": "Flip horizontal (Shift+H) on story photo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Use as mask (panel button) with rounded rectangle",
+      "ok": true,
+      "detail": "Story photo shape[mask], Story latte photo"
+    },
+    {
+      "name": "Copy/paste properties (⌘⌥C/⌘⌥V) overlay → fill + opacity",
+      "ok": true,
+      "detail": "fill=#E0A060, opacity=0.35"
+    },
+    {
+      "name": "Copy/paste properties carries blend mode",
+      "ok": true,
+      "detail": "blendMode=MULTIPLY"
+    },
+    {
+      "name": "Layers panel drag INTO masked group (overlay clipped by rounded mask)",
+      "ok": true,
+      "detail": "parent=Story photo (masked)"
+    },
+    {
+      "name": "Copy/paste properties text style (Headline → Story headline)",
+      "ok": true,
+      "detail": "size=118, family=Playfair Display, weight=800, chars kept=\"Your new / morning ritual.\""
+    },
+    {
+      "name": "Copy/paste badge into story frame (⌘C, select frame, ⌘V)",
+      "ok": true,
+      "detail": "pasted \"Promo badge\" parent=IG Story"
+    },
+    {
+      "name": "Lock via layers panel (Story photo)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Export post PNG via Export button",
+      "ok": true,
+      "detail": "IG Post.png {\"w\":1080,\"h\":1350}"
+    },
+    {
+      "name": "Export post JPG via Export button",
+      "ok": true,
+      "detail": "IG Post@2x.jpg"
+    },
+    {
+      "name": "Export story PNG via Export button",
+      "ok": true,
+      "detail": "IG Story.png {\"w\":1080,\"h\":1920}"
+    },
+    {
+      "name": "Export story JPG via Export button",
+      "ok": true,
+      "detail": "IG Story@2x.jpg"
+    },
+    {
+      "name": "Save local copy (.myflow) via Main menu → File",
+      "ok": true,
+      "detail": "Ember & Oak — IG Set.myflow, 29 nodes"
+    }
+  ],
+  "findings": [],
+  "summary": {
+    "nodeCount": 29,
+    "byType": {
+      "FRAME": 2,
+      "ELLIPSE": 3,
+      "RECTANGLE": 6,
+      "GROUP": 4,
+      "TEXT": 12,
+      "STAR": 2
+    },
+    "tree": [
+      "IG Post [FRAME]",
+      "  Deco disc [ELLIPSE,locked]",
+      "  Accent disc [ELLIPSE]",
+      "  Photo (masked) [GROUP]",
+      "    Photo circle [ELLIPSE,mask]",
+      "    Latte photo [RECTANGLE]",
+      "  Warm overlay [RECTANGLE,MULTIPLY,op=0.35]",
+      "  Logo [TEXT]",
+      "  Logo tagline [TEXT]",
+      "  Headline [TEXT]",
+      "  Subcopy [TEXT]",
+      "  Promo badge [GROUP,rot=-14]",
+      "    Badge star [STAR]",
+      "    Badge text [TEXT]",
+      "  Draft headline (alt) [TEXT,hidden]",
+      "IG Story [FRAME]",
+      "  Story photo (masked) [GROUP,locked]",
+      "    Story photo shape [RECTANGLE,mask]",
+      "    Story latte photo [RECTANGLE,flipX]",
+      "    Story overlay [RECTANGLE,MULTIPLY,op=0.45]",
+      "  Story logo [TEXT]",
+      "  Story tagline [TEXT]",
+      "  Story headline [TEXT]",
+      "  Story subcopy [TEXT]",
+      "  CTA pill [RECTANGLE]",
+      "  CTA label [TEXT]",
+      "  Story badge [GROUP,rot=12]",
+      "    Badge star [STAR]",
+      "    Badge text [TEXT]"
+    ],
+    "errors": []
+  }
+}

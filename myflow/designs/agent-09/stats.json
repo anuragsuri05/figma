@@ -1,0 +1,40 @@
+{
+  "stats": {
+    "total": 78,
+    "byType": {
+      "SECTION": 1,
+      "FRAME": 13,
+      "ELLIPSE": 17,
+      "TEXT": 33,
+      "STAR": 5,
+      "GROUP": 5,
+      "BOOLEAN_OPERATION": 2,
+      "POLYGON": 1,
+      "RECTANGLE": 1
+    },
+    "bgBlur": [
+      "Widget / Small",
+      "Widget / Medium",
+      "Widget / Large"
+    ],
+    "layerBlur": 3,
+    "unions": [
+      "Cloud:UNION:4",
+      "Cloud:UNION:4"
+    ],
+    "autoLayouts": [
+      "Widget / Large:VERTICAL",
+      "Day / Mon:VERTICAL",
+      "Day / Tue:VERTICAL",
+      "Day / Wed:VERTICAL",
+      "Day / Thu:VERTICAL",
+      "Day / Fri:VERTICAL",
+      "5-Day Forecast:HORIZONTAL",
+      "City:HORIZONTAL",
+      "Now:VERTICAL",
+      "Header:HORIZONTAL"
+    ]
+  },
+  "findings": [],
+  "errors": []
+}

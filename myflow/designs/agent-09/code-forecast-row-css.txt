@@ -1,0 +1,6 @@
+/* 5-Day Forecast */
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+height: fit-content;

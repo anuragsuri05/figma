@@ -1,0 +1,240 @@
+{
+  "checks": [
+    {
+      "name": "File renamed via left-panel file name",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "iPhone 16 preset → 393×852",
+      "ok": true,
+      "detail": "393×852"
+    },
+    {
+      "name": "Shift+A adds auto layout to button frame",
+      "ok": true,
+      "detail": "VERTICAL"
+    },
+    {
+      "name": "⌘⌥K turns button into COMPONENT",
+      "ok": true,
+      "detail": "COMPONENT"
+    },
+    {
+      "name": "Component hug height = 16+lineheight+16",
+      "ok": true,
+      "detail": "sizingV=HUG h=52"
+    },
+    {
+      "name": "Dragging asset creates INSTANCE inside Login",
+      "ok": true,
+      "detail": "INSTANCE parent=Login"
+    },
+    {
+      "name": "Text override on instance (double-click → type)",
+      "ok": true,
+      "detail": "chars=\"Sign in\" overrides=[\"text\"]"
+    },
+    {
+      "name": "Second instance overrides (text, fill, stroke)",
+      "ok": true,
+      "detail": "chars=\"Continue with Google\""
+    },
+    {
+      "name": "Logo row: horizontal auto layout, hug×hug",
+      "ok": true,
+      "detail": "HORIZONTAL HUG/HUG 125×44"
+    },
+    {
+      "name": "Divider row: horizontal auto layout",
+      "ok": true,
+      "detail": "HORIZONTAL 337×16"
+    },
+    {
+      "name": "Login: vertical auto layout",
+      "ok": true,
+      "detail": "VERTICAL gap=30"
+    },
+    {
+      "name": "Login: gap 16, padding 24/72, fixed 393×852",
+      "ok": true,
+      "detail": "gap=16 pad=24/72 393×852 order=Logo › Heading › Subheading › Email field › Password field › Forgot password › Sign in button › Divider › Google button › Spacer › Footer"
+    },
+    {
+      "name": "Spacer: fill container vertically pushes footer to bottom",
+      "ok": true,
+      "detail": "h=192"
+    },
+    {
+      "name": "Children use FILL width (393-48=345)",
+      "ok": true,
+      "detail": "Subheading:345, Email field:345, Password field:345, Forgot password:345, Sign in button:345, Divider:345, Google button:345, Spacer:345, Footer:345"
+    },
+    {
+      "name": "Email field: radius 12, 1px stroke, hug height with padding",
+      "ok": true,
+      "detail": "r=12 strokes=1@1 HUG h=51"
+    },
+    {
+      "name": "Home frame created (393×852)",
+      "ok": true,
+      "detail": "393×852 children=17"
+    },
+    {
+      "name": "Noodle drag creates reaction → Home",
+      "ok": true,
+      "detail": "[{\"t\":\"ON_CLICK\",\"a\":\"NAVIGATE\",\"d\":\"Home\"}]"
+    },
+    {
+      "name": "Animation = Smart animate",
+      "ok": true,
+      "detail": "SMART_ANIMATE"
+    },
+    {
+      "name": "Present opens on Login",
+      "ok": true,
+      "detail": "Login"
+    },
+    {
+      "name": "Present: clicking Sign in navigates to Home",
+      "ok": true,
+      "detail": "Home"
+    },
+    {
+      "name": "PNG export download",
+      "ok": true,
+      "detail": "Login@2x.png"
+    },
+    {
+      "name": "Save local copy (.myflow)",
+      "ok": true,
+      "detail": "Flowly — Login & Sign-up.myflow"
+    }
+  ],
+  "notes": [
+    "Layers panel: had to expand \"Divider\" manually to reach \"Divider left\""
+  ],
+  "summary": {
+    "layers": 23,
+    "components": [
+      "Button/Primary"
+    ],
+    "instances": [
+      "Sign in button",
+      "Google button"
+    ],
+    "login": [
+      {
+        "name": "Logo",
+        "type": "FRAME",
+        "x": 24,
+        "y": 72,
+        "w": 125,
+        "h": 44,
+        "sizingH": "HUG",
+        "sizingV": "HUG"
+      },
+      {
+        "name": "Heading",
+        "type": "TEXT",
+        "x": 24,
+        "y": 132,
+        "w": 216,
+        "h": 37,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Subheading",
+        "type": "TEXT",
+        "x": 24,
+        "y": 185,
+        "w": 295,
+        "h": 19,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Email field",
+        "type": "FRAME",
+        "x": 24,
+        "y": 220,
+        "w": 345,
+        "h": 52,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Password field",
+        "type": "FRAME",
+        "x": 24,
+        "y": 288,
+        "w": 345,
+        "h": 52,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Forgot password",
+        "type": "TEXT",
+        "x": 24,
+        "y": 356,
+        "w": 122,
+        "h": 17,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Sign in button",
+        "type": "INSTANCE",
+        "x": 24,
+        "y": 389,
+        "w": 345,
+        "h": 52,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Divider",
+        "type": "FRAME",
+        "x": 24,
+        "y": 457,
+        "w": 337,
+        "h": 16,
+        "sizingH": "HUG",
+        "sizingV": "HUG"
+      },
+      {
+        "name": "Google button",
+        "type": "INSTANCE",
+        "x": 24,
+        "y": 489,
+        "w": 345,
+        "h": 52,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Spacer",
+        "type": "FRAME",
+        "x": 24,
+        "y": 557,
+        "w": 345,
+        "h": 40,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      },
+      {
+        "name": "Footer",
+        "type": "TEXT",
+        "x": 24,
+        "y": 613,
+        "w": 210,
+        "h": 17,
+        "sizingH": "FIXED",
+        "sizingV": "FIXED"
+      }
+    ],
+    "errors": []
+  }
+}

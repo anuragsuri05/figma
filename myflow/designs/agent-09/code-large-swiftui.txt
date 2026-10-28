@@ -1,0 +1,10 @@
+VStack(alignment: .leading, spacing: 16) {
+  // children
+}
+.padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
+.frame(width: 364, height: 382)
+.background(Color(red: 1, green: 1, blue: 1).opacity(0.18))
+  .cornerRadius(28)
+  .overlay(RoundedRectangle(cornerRadius: 28).inset(by: 0.5).stroke(Color(red: 1, green: 1, blue: 1).opacity(0.3), lineWidth: 1))
+  .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 28)) // background blur 20
+  .shadow(color: Color(red: 0, green: 0, blue: 0).opacity(0.25), radius: 20, x: 0, y: 16)

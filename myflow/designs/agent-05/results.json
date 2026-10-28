@@ -1,0 +1,166 @@
+{
+  "checks": [
+    {
+      "name": "File renamed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Variables CRUD: create + rename + delete variable",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Collection \"Theme\" with modes Light/Dark",
+      "ok": true,
+      "detail": "Light,Dark"
+    },
+    {
+      "name": "7 COLOR variables with real Light/Dark values",
+      "ok": true,
+      "detail": "bg=#F5F6FA/#0E1015; surface=#FFFFFF/#181B23; text=#111827/#F3F4F6; text-muted=#6B7280/#9CA3AF; primary=#4F46E5/#8B8DFB; on-primary=#FFFFFF/#0E1015; border=#E3E6EE/#2A2F3A"
+    },
+    {
+      "name": "2 NUMBER variables (radius, spacing) with values",
+      "ok": true,
+      "detail": "radius={\"mmv3vizfx2dpp06\":10,\"mmv3vj0pke5b9q35\":10}; spacing={\"mmv3vizfx2dpp06\":16,\"mmv3vj0pke5b9q35\":16}"
+    },
+    {
+      "name": "Second page \"Components\" added + renamed (and active)",
+      "ok": true,
+      "detail": "Page 1, Components"
+    },
+    {
+      "name": "Color styles created + named",
+      "ok": true,
+      "detail": "FILL:Brand/Primary, FILL:Brand/Primary Hover, FILL:Neutral/900, FILL:Neutral/500, FILL:Neutral/100, FILL:Feedback/Success, FILL:Feedback/Danger"
+    },
+    {
+      "name": "Typography scale text styles created + named",
+      "ok": true,
+      "detail": "TEXT:Type/Display, TEXT:Type/Heading, TEXT:Type/Title, TEXT:Type/Body, TEXT:Type/Label, TEXT:Type/Caption"
+    },
+    {
+      "name": "Button component set created (COMPONENT_SET)",
+      "ok": true,
+      "detail": "COMPONENT_SET Component"
+    },
+    {
+      "name": "Variants Type=Primary/Secondary/Ghost",
+      "ok": true,
+      "detail": "Type=Primary, Type=Secondary, Type=Ghost"
+    },
+    {
+      "name": "Set renamed \"Button\"",
+      "ok": true,
+      "detail": "Button"
+    },
+    {
+      "name": "Input component: fill + stroke bound to variables",
+      "ok": true,
+      "detail": "COMPONENT w=300 fill=#FFFFFF"
+    },
+    {
+      "name": "Card component: fill + stroke bound to variables",
+      "ok": true,
+      "detail": "COMPONENT 320x161"
+    },
+    {
+      "name": "UI to bind NUMBER variables (radius/spacing) to radius/gap/padding",
+      "ok": false,
+      "detail": "no bind control next to radius / gap / padding fields"
+    },
+    {
+      "name": "Assets panel lists components",
+      "ok": true,
+      "detail": "asset-Type=Primary, asset-Type=Secondary, asset-Type=Ghost, asset-Input, asset-Card"
+    },
+    {
+      "name": "Assets panel lists color styles",
+      "ok": true,
+      "detail": "7 color style rows"
+    },
+    {
+      "name": "Instances inserted from Assets into both preview frames",
+      "ok": true,
+      "detail": "light=5 dark=5"
+    },
+    {
+      "name": "Variant switch on instance (Primary → Secondary / Ghost)",
+      "ok": true,
+      "detail": "Input, Card, Type=Primary, Type=Secondary, Type=Ghost"
+    },
+    {
+      "name": "Mode set on frames via mode switcher (Light / Dark)",
+      "ok": true,
+      "detail": "[{\"vcmv3vizfxk4kct5\":\"mmv3vizfx2dpp06\"},{\"vcmv3vizfxk4kct5\":\"mmv3vj0pke5b9q35\"}]"
+    },
+    {
+      "name": "Dark frame bg resolves to Dark value",
+      "ok": true,
+      "detail": "light=#F5F6FA dark=#0E1015"
+    },
+    {
+      "name": "Mode switch changes descendants incl. instance internals",
+      "ok": true,
+      "detail": "15 layer fills changed"
+    },
+    {
+      "name": "Card instance in Dark preview uses Dark surface (#181B23)",
+      "ok": true,
+      "detail": "#181B23"
+    },
+    {
+      "name": "Primary button instance in Dark preview uses Dark primary (#8B8DFB)",
+      "ok": true,
+      "detail": "#8B8DFB"
+    },
+    {
+      "name": "Editing a variable value updates bound layers (Dark Input stroke)",
+      "ok": true,
+      "detail": "#343A48"
+    },
+    {
+      "name": "PNG export via Export button (Light + Dark previews)",
+      "ok": true,
+      "detail": "Preview – Light.png 40072B, Preview – Dark.png 41205B"
+    },
+    {
+      "name": "Save local copy (.myflow) contains pages, variables, styles",
+      "ok": true,
+      "detail": "Theme Kit — Design System Starter.myflow pages=Previews,Components vars=9 styles=13"
+    },
+    {
+      "name": "Text styles applied to component text (Button/Card labels)",
+      "ok": true,
+      "detail": "Type/Display, Type/Heading, Type/Title, Type/Body, Type/Label, Type/Caption, Type/Label, Type/Label, Type/Label, Type/Title, Type/Heading, Type/Title, Type/Heading, Type/Label, Type/Label, Type/Label, Type/Title, Type/Heading, Type/Label, Type/Label, Type/Label"
+    },
+    {
+      "name": "No console/page errors",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "notes": [
+    "canvas box {\"x\":0,\"y\":0,\"width\":1440,\"height\":900}",
+    "light instances: [[\"Account settings\",40,30,234,34],[\"Light mode · Theme collection\",40,74,200,17],[\"Email\",40,120,34,16],[\"Input\",40,155,300,41],[\"Card\",40,240,320,161],[\"Button\",42,430,116,41],[\"Button\",202,430,117,41],[\"Button\",342,430,88,41]]",
+    "dark-frame colors after switch: {\"Preview – Dark:FRAME:uxpe\":\"#0E1015\",\"Account settings:TEXT:7xra\":\"#F3F4F6\",\"Dark mode · Theme collection:TEXT:uerg\":\"#9CA3AF\",\"Email:TEXT:hzrn\":\"#F3F4F6\",\"Input:INSTANCE:s0rt\":\"#181B23\",\"you@company.com:TEXT:b9ru\":\"#9CA3AF\",\"Card:INSTANCE:95rz\":\"#181B23\",\"Pro plan:TEXT:n7s0\":\"#F3F4F6\",\"Everything your team needs to ship a con:TEXT:ovs1\":\"#9CA3AF\",\"$12 / month:TEXT:15s2\":\"#8B8DFB\",\"Button:INSTANCE:d5s9\":\"#8B8DFB\",\"Get started:TEXT:zfsa\":\"#0E1015\",\"Button:INSTANCE:7zse\":\"#181B23\",\"Learn more:TEXT:ifsi\":\"#F3F4F6\",\"Cancel:TEXT:rzsr\":\"#8B8DFB\"}",
+    "stats {\"total\":63,\"byType\":{\"TEXT\":38,\"RECTANGLE\":7,\"COMPONENT\":5,\"COMPONENT_SET\":1,\"FRAME\":2,\"INSTANCE\":10},\"pages\":[\"Previews(2)\",\"Components(21)\"]}"
+  ],
+  "errors": [],
+  "stats": {
+    "total": 63,
+    "byType": {
+      "TEXT": 38,
+      "RECTANGLE": 7,
+      "COMPONENT": 5,
+      "COMPONENT_SET": 1,
+      "FRAME": 2,
+      "INSTANCE": 10
+    },
+    "pages": [
+      "Previews(2)",
+      "Components(21)"
+    ]
+  }
+}

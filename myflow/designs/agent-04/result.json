@@ -1,0 +1,143 @@
+{
+  "layers": 41,
+  "types": {
+    "FRAME": 11,
+    "ELLIPSE": 5,
+    "BOOLEAN_OPERATION": 2,
+    "RECTANGLE": 4,
+    "TEXT": 19
+  },
+  "styles": [
+    {
+      "name": "Heading/H1",
+      "type": "TEXT"
+    },
+    {
+      "name": "Body",
+      "type": "TEXT"
+    },
+    {
+      "name": "Brand/Primary",
+      "type": "FILL"
+    }
+  ],
+  "checks": [
+    {
+      "name": "File renamed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Hero frame 1440x900",
+      "ok": true,
+      "detail": "1440x900"
+    },
+    {
+      "name": "Radial gradient fill on ellipse",
+      "ok": true,
+      "detail": "[{\"offset\":0,\"color\":\"#7C5CFF\"},{\"offset\":1,\"color\":\"#0B0A1A\"}]"
+    },
+    {
+      "name": "Blob parented into Hero",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Linear gradient fill on ellipse",
+      "ok": true,
+      "detail": "angle=45 stops=[{\"offset\":0,\"color\":\"#F472B6\"},{\"offset\":1,\"color\":\"#6D5BFF\"}]"
+    },
+    {
+      "name": "Layer blur effect",
+      "ok": true,
+      "detail": "{\"id\":\"emv3vj5d30mvv8l\",\"type\":\"LAYER_BLUR\",\"visible\":true,\"color\":\"#000000\",\"opacity\":0.25,\"x\":0,\"y\":0,\"blur\":140,\"spread\":0}"
+    },
+    {
+      "name": "Boolean SUBTRACT created",
+      "ok": true,
+      "detail": "BOOLEAN_OPERATION/SUBTRACT kids=2"
+    },
+    {
+      "name": "Boolean UNION created (shortcut)",
+      "ok": true,
+      "detail": "BOOLEAN_OPERATION/UNION"
+    },
+    {
+      "name": "Nav: horizontal auto layout, space-between, 1280 wide",
+      "ok": true,
+      "detail": "HORIZONTAL/SPACE_BETWEEN/1280"
+    },
+    {
+      "name": "Headline 64px bold, 2 lines",
+      "ok": true,
+      "detail": "64/700 h=144"
+    },
+    {
+      "name": "Text styles created & named",
+      "ok": true,
+      "detail": "Heading/H1, Body"
+    },
+    {
+      "name": "Body text style applied to 5 nav links",
+      "ok": true,
+      "detail": "20,20,20,20,20"
+    },
+    {
+      "name": "Color style applied to 3 layers",
+      "ok": true,
+      "detail": "Logo Mark, Nav CTA, CTA Primary"
+    },
+    {
+      "name": "Text style edit propagates (Body 20→18)",
+      "ok": true,
+      "detail": "links=18,18,18,18,18 sub=18"
+    },
+    {
+      "name": "Color style edit propagates to all bound layers",
+      "ok": true,
+      "detail": "Logo Mark:#7C4DFF, Nav CTA:#7C4DFF, CTA Primary:#7C4DFF"
+    },
+    {
+      "name": "Constraint LEFT_RIGHT: Nav stretches 1280→1440",
+      "ok": true,
+      "detail": "nav w=1440, CTA x=1158→1318"
+    },
+    {
+      "name": "Constraint RIGHT/BOTTOM: Ring moves +160/+100",
+      "ok": true,
+      "detail": "1090,520 → 1250,620"
+    },
+    {
+      "name": "Constraint BOTTOM: Trusted By moves +100",
+      "ok": true,
+      "detail": "720→820"
+    },
+    {
+      "name": "Resize back to 1440x900 restores layout",
+      "ok": true,
+      "detail": "nav=1280 ring.x=1090"
+    },
+    {
+      "name": "PNG export via Export button",
+      "ok": true,
+      "detail": "Hero.png 823913B"
+    },
+    {
+      "name": "PDF export via Export button",
+      "ok": true,
+      "detail": "Hero.pdf 296562B"
+    },
+    {
+      "name": "File → Export frames to PDF",
+      "ok": true,
+      "detail": "Lumen – Startup Hero.pdf 296562B"
+    },
+    {
+      "name": "Save local copy (.myflow)",
+      "ok": true,
+      "detail": "Lumen – Startup Hero.myflow nodes=41 styles=Heading/H1|Body|Brand/Primary"
+    }
+  ],
+  "errors": [],
+  "findings": []
+}
